@@ -1,4 +1,8 @@
 let open = false;
+LINKS = ["https://scratch.mit.edu/projects/747635846",
+"https://scratch.mit.edu/projects/965784197",
+"https://scratch.mit.edu/projects/913573122",
+"https://scratch.mit.edu/projects/1017350192"];
 hOpen.addEventListener("click", function(){
     if(open==false){
         open = true;
@@ -19,7 +23,7 @@ hOpen.addEventListener("click", function(){
         document.getElementById('hOpen').classList.remove("open");
     }
     console.log(open);
-})
+});
 
 // window.onload = () => {
 //     if (!window.location.pathname.includes("index.html")) {
@@ -27,16 +31,17 @@ hOpen.addEventListener("click", function(){
 //     }
 // };
 dodgetm.addEventListener("click", () => {
-
+    console.log("clicked");
+    window.open(LINKS[0], "_blank");
 });
 WORDLENTtm.addEventListener("click", () => {
-
+    window.open(LINKS[1], "_blank");
 });
 
 MAZEtm.addEventListener("click", () => {
-
+    window.open(LINKS[2], "_blank");
 });
 
 Scratchesstm.addEventListener("click", () => {
-
+    window.open(LINKS[3], "_blank");
 });

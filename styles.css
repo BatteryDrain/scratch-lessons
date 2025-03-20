@@ -57,17 +57,34 @@ body {
     
 }
 
+figcaption {
+    color: orange;
+}
+
 figure {
     background-color: aqua;
     border-radius: 35px;
     min-height: 300px;
     padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     filter: drop-shadow(18px 18px 8px black);
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-figcaption {
-    color: orange;
+figure button {
+    margin-bottom: 10px;
+}
+
+#crop img {
+    position: relative;
+    left: -11%;
+    top: -10%;
+}
+
+#crop {
+    overflow: hidden;
+    background-color: green;
 }
 
 figure button {
