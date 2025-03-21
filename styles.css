@@ -84,7 +84,6 @@ figure button {
 
 #crop {
     overflow: hidden;
-    background-color: green;
 }
 
 figure button {
@@ -100,6 +99,7 @@ main {
 
 aside {
 padding-left: 10px;
+color: white;
 }
 
 @media screen and (max-width: 400px) {
