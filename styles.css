@@ -68,7 +68,7 @@ figure {
     padding: 10px;
     padding-bottom: 20px;
     padding-top: 20px;
-    filter: drop-shadow(18px 18px 0px black);
+    filter: drop-shadow(18px 18px 0px orange);
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
