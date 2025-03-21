@@ -58,7 +58,7 @@ body {
 }
 
 figcaption {
-    color: orange;
+    color: green;
 }
 
 figure {
@@ -89,7 +89,6 @@ figure button {
 figure button {
     border-radius: 35px;
     border: 0;
-    background-color: orange;
     color: green
 }
 
