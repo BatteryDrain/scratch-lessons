@@ -47,9 +47,34 @@ Scratchesstm.addEventListener("click", () => {
 });
 
 dodgeFigure.addEventListener("mouseenter", () =>{
-    dodgeimg.src="assets/dodge_40-60_5fps.gif";
+    dodgeimg.src = "assets/dodge_40-60_5fps.gif";
 });
 
 dodgeFigure.addEventListener("mouseleave", () =>{
-    dodgeimg.src="assets/dodge.poster.gif";
+    dodgeimg.src = "assets/dodge.poster.gif";
 });
+
+wordlentfigure.addEventListener("mouseenter", () => {
+    wordlentimg.src = "assets/WORDELNT_12-32_5fps.gif";
+});
+
+wordlentfigure.addEventListener("mouseleave", () => {
+    wordlentimg.src = "assets/wordelnt.poster.gif";
+});
+
+mazefigure.addEventListener("mouseenter", () => {
+    mazeimg.src = "assets/maze_ 6-26_5fps.gif";
+});
+
+mazefigure.addEventListener("mouseleave", () => {
+    mazeimg.src = "assets/maze.poster.gif";
+});
+
+chessfigure.addEventListener("mouseenter", () => {
+    chessimg.src = "assets/chess_4-33_5fps.gif";
+});
+
+chessfigure.addEventListener("mouseleave", () => {
+    chessimg.src = "assets/chess.poster.gif";
+});
+
