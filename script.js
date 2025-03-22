@@ -45,3 +45,11 @@ MAZEtm.addEventListener("click", () => {
 Scratchesstm.addEventListener("click", () => {
     window.open(LINKS[3], "_blank");
 });
+
+dodgeFigure.addEventListener("mouseenter", () =>{
+    dodgeimg.src="assets/dodge_40-60_5fps.gif";
+});
+
+dodgeFigure.addEventListener("mouseleave", () =>{
+    dodgeimg.src="assets/dodge.poster.gif";
+});
