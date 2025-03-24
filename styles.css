@@ -85,14 +85,14 @@ figure button {
 
 #crop {
     overflow: hidden;
-    
+
 }
 
 figure button {
     border-radius: 35px;
     border: 0;
     background-color: orange;
-    color: green;
+    color: turquoise;
 }
 
 main {
