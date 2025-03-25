@@ -120,6 +120,10 @@ background-color: orange;
     nav {
         order: 0;
     }
+
+    figure button {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 400px){
