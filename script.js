@@ -78,6 +78,7 @@ chessfigure.addEventListener("mouseleave", () => {
     chessimg.src = "assets/chess.poster.gif";
 });
 
+carimg = document.getElementById("carimg");
 carimg.addEventListener("mouseenter", () => {
     carimg.src = "assets/car_4-24_10fps.gif";
 });
