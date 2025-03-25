@@ -63,7 +63,7 @@ figcaption {
 }
 
 figure {
-    background-color: turquoise;
+    background-color: rgb(106, 223, 255);
     border-radius: 35px;
     min-height: 300px;
     padding: 10px;
@@ -91,7 +91,7 @@ figure button {
     border-radius: 35px;
     border: 0;
     background-color: orange;
-    color: turquoise;
+    color: rgb(106, 223, 255);
 }
 
 main {
@@ -126,7 +126,7 @@ background-color: orange;
 
     figure:hover {
         transform: scale(1.1);
-        filter: drop-shadow(16px 16px 30px rgb(0, 79, 71));
+        filter: drop-shadow(16px 16px 30px rgb(31, 109, 131));
     }
     #carimg:hover {
         transform: scale(1.1);
