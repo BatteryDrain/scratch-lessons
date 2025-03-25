@@ -79,7 +79,7 @@ chessfigure.addEventListener("mouseleave", () => {
 });
 
 carimg.addEventListener("mouseenter", () => {
-    carimg.src = "assets/car_2-22_10fps.gif";
+    carimg.src = "assets/car_4-24_10fps.gif";
 });
 
 carimg.addEventListener("mouseleave", () => {
