@@ -15,8 +15,8 @@ nav a {
     font-size: 30px;
     margin-bottom: 115px;
     color: black;
-
 }
+
 .open{
     background-color: orange;
     border: 2px solid orange;
@@ -24,6 +24,11 @@ nav a {
     margin-bottom: 0;
     color: green;
 }
+
+p {
+    max-width: 120ch;
+}
+
 .title{
     font-size: large;
     color: rgba(44, 143, 44, 0.752);
@@ -36,7 +41,7 @@ header img{
     width: 90px;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Rboto", Arial, sans-serif;
 }
 .section {
     font-size: larger;
