@@ -27,10 +27,11 @@ nav a {
 
 p {
     max-width: 120ch;
+    font-size: large;
 }
 
 .title{
-    font-size: large;
+    font-size: larger;
     color: rgba(44, 143, 44, 0.752);
     font-weight: bold;
 }
