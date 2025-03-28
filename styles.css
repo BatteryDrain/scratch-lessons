@@ -42,7 +42,7 @@ header img{
     width: 90px;
 }
 body{
-    font-family: "Rboto", Arial, sans-serif;
+    font-family: "Mulish", Arial, sans-serif;
 }
 .section {
     font-size: larger;
@@ -51,7 +51,6 @@ body{
 }
 body {
     margin: 0;
-}
 
 #figures {
     display: grid;
