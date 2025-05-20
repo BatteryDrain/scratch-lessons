@@ -25,11 +25,11 @@ hOpen.addEventListener("click", function(){
     console.log(open);
 });
 
-// window.onload = () => {
-//     if (!window.location.pathname.includes("index.html")) {
-//         window.location.href = "index.html";
-//     }
-// };
+window.onload = () => {
+    if (!window.location.pathname.includes("index.html")) {
+        window.location.href = "index.html";
+    }
+};
 dodgetm.addEventListener("click", () => {
     console.log("clicked");
     window.open(LINKS[0], "_blank");
